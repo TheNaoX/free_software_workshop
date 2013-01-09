@@ -46,3 +46,14 @@ To see what happens on every stage of the repository just use the following comm
 git status ## To see which files have been modified
 git diff   ## To watch the LOC (Lines Of Code) changed, added and deleted
 git log    ## To see the commits on the current branch
+
+To create branches you have to run the following command
+
+git checkout -b [your_branch_name]
+
+Repeat the commit process every time you add something to the files
+
+To merge this information you have to use the recursive strategy with
+
+git checkout master
+git merge --no-ff [your_branch_name]
