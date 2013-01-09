@@ -23,3 +23,26 @@ To open the current directory from the terminal
 n . 
 
 And double click to the fonts inside the fonts/ directory.
+
+# GIT INTRODUCTION
+To initialize a new repository you have to do it inside of a specific folder
+
+mkdir my_new_repository
+cd my_new_repository
+
+The following command initialize a new repository inside of `my_new_repository`
+git init
+
+Adding files
+touch README
+
+Edit the file with your prefered text editor, and commit the file with the following commands
+
+git add .
+git commit -m 'Initial commit'
+
+To see what happens on every stage of the repository just use the following commands
+
+git status ## To see which files have been modified
+git diff   ## To watch the LOC (Lines Of Code) changed, added and deleted
+git log    ## To see the commits on the current branch
