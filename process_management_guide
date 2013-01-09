@@ -1,0 +1,29 @@
+This guide will show you how to track and kill processes using the linux terminal
+
+ps - process status app
+
+Common usage
+
+ps -Af # this will bring you the information of all linux processes that are being executed and it's process ids
+
+ps -Af | grep [process_name] # this will show you the specific process required by the regular expression
+
+Once you have the process ID you have to run the following command and make sure that the process is running under your user, otherwise you have tu add `sudo`
+
+kill -9 [process_id]
+or
+sudo kill -9 [process_id]
+
+## Managing process triggered from the terminal
+
+To test this open gitk in the terminal
+
+gitk --all
+
+and to send the process to the background you have press `ctrl + z` and the process will be sent.
+
+to bring the process to the front you have to run
+
+fg
+
+and kill the process with `ctrl + c`
