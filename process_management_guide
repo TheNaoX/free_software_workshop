@@ -13,3 +13,17 @@ Once you have the process ID you have to run the following command and make sure
 kill -9 [process_id]
 or
 sudo kill -9 [process_id]
+
+## Managing process triggered from the terminal
+
+To test this open gitk in the terminal
+
+gitk --all
+
+and to send the process to the background you have press `ctrl + z` and the process will be sent.
+
+to bring the process to the front you have to run
+
+fg
+
+and kill the process with `ctrl + c`
