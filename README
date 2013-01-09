@@ -1,0 +1,25 @@
+This is the readme for the free software workshop
+
+# First steps
+
+Install the following commands in the linux terminal
+
+sudo apt-get update
+sudo apt-get install build-essential
+sudo apt-get install git git-core curl
+sudo apt-get install ubuntu-restricted-extras
+
+### This command should be executed in your home folder ~:$
+
+git clone https://github.com/TheNaoX/gh-dotfiles.git .gh-dotfiles
+cd .gh-dotfiles
+./install.sh
+source ~/.bashrc
+
+And Finally install the fonts located in the fonts directory inside the .gh-dotfiles repository
+
+To open the current directory from the terminal
+
+n . 
+
+And double click to the fonts inside the fonts/ directory.
