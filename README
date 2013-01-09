@@ -57,3 +57,7 @@ To merge this information you have to use the recursive strategy with
 
 git checkout master
 git merge --no-ff [your_branch_name]
+
+linus torlvalds tech talk of git on 2007
+
+http://www.youtube.com/watch?v=4XpnKHJAok8
